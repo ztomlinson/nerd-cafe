@@ -1,0 +1,414 @@
+body {
+  margin:  0;
+  line-height: 1.5;
+  font-size:  1em;
+  font-family:  'Arial', sans-serif;
+  color:  black;
+  background: #ff0040;
+}
+
+/* Navigation*/
+.navbar {
+    margin-bottom: 0;
+    background-color: #ff0040;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+/* Main Title */
+
+a.ANC {
+  font-weight:bold;
+}
+
+/* Contact notes */
+
+.col-sm-5 a {
+    color:white;
+}
+
+.jumbo-contact {
+    background-color: #ffffff;
+    color: #ffffff;
+    text-align:center;
+    padding: .jumbo-menu {
+    background-color: #ffffff;
+    color: #ffffff;
+    text-align:center;
+    padding: 50px 50px 50px;
+    margin-top: 25px;
+}
+
+.menu-section main {
+  background-color:black;
+}
+
+.menu-section {
+  border-style:solid;
+  
+  margin-left: auto;
+  margin-top:40px;
+  padding-left:20px;
+  padding-right:20px;
+  text-align:left;
+  background-color:#ff0040;
+};
+}
+
+.contact-section {
+  border-style:solid;
+  margin-bottom: 20px;
+  margin-top:40px;
+  padding-left:20px;
+  padding-right:20px;
+  text-align:left;
+  background-color:#ff0040;
+}
+
+/* Calendar page */
+
+#calendar div .jumbo-menu {
+  margin-right:500px;
+}
+
+.jumbo-calendar {
+    background-color: #ffffff;
+    color: #ffffff;
+    text-align:center;
+    margin: 20px 20px 20px 20px;
+}
+
+/* Order form online */
+
+fieldset p label {
+  font-weight:normal;
+  font-size:25px;
+}
+
+fieldset label {
+  font-size:30px;
+}
+
+p input {
+  font-size:30px;
+}
+
+/* Responsive calendar components */
+
+.respcal {
+ 
+position: relative; 
+margin-top: 25px;
+padding-top: 30px;
+overflow:hidden;
+ 
+}
+ 
+.responsiveCal iframe {
+position: absolute; 
+top:0; 
+left: 0; 
+width: 100%; 
+height: 100%;
+}
+
+
+/* Menu */
+
+.jumbo-menu {
+    background-color: #ffffff;
+    color: #ffffff;
+    text-align:center;
+    padding: 40px 25px 100px;
+}
+
+.menu-body {
+  max-width: auto;
+  margin: 0 auto;
+  display: block;
+  text-align:center;
+  color: rgb(92, 92, 92);
+}
+
+.menu-section {
+  border-style:solid;
+  margin-bottom: 80px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-top:40px;
+  padding-left:20px;
+  padding-right:20px;
+  text-align:left;
+  background-color:#ff0040;
+}
+
+main {
+  background: #eee;
+  padding: 0 0 150px; /* accommodate space for sticky footer */
+}
+
+h1 sub {
+  display: block;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.menu-section-title {
+  font-family: arial;
+  border-style: solid;
+  font-size: 50px;
+  display: block;
+  font-weight:normal;
+  margin: 40px 0px;
+  text-align: center;
+  padding-top: 20px
+  padding-bottom: 20px;
+}
+
+.menu-item {
+  margin: 35px 0;
+  font-size: 18px;
+}
+
+.menu-item-name{
+  font-family: helvetica;
+  font-weight: bold;
+  border-bottom: 2px dotted rgb(213, 213, 213);
+}
+
+.menu-item-description {
+  font-style: italic;
+  font-size: .9em;
+  line-height: 1.5em;
+}
+
+.menu-item-price{
+  float: right;
+  font-weight: bold;
+  font-family: arial;
+  margin-top: -22px;
+}
+
+
+/* Google Map */
+
+#googleMap {
+  height:600px;
+  width:100%;
+  border:50px;
+}
+
+/* Icons */
+
+.logo {
+  font-size: 200px;
+  color: #ff0040;
+}
+
+.logo-small {
+  color: #ff0040;
+  font-size: 50px;
+}
+
+.jumbotron {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 100px 25px;
+    margin: 0;
+    background-image: url("https://images.pexels.com/photos/70232/pexels-photo-70232.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+    background-size: cover;
+    background-position:50% 50%;
+
+
+}
+
+.container-fluid {
+  padding: 40px 25px;
+  margin: 0 auto;
+}
+
+.bg-grey {
+  background-color: #f6f6f6;
+}
+
+/* Form */
+
+fieldset {
+  margin: 0 auto;
+  padding:5px;
+  height:auto;
+  width: 600px;
+}
+
+/* Footer */
+
+footer {
+   position: fixed;
+   bottom: 0;
+   padding: 25px 50px;
+   margin: 0 auto;
+   width:100%;
+   background: #ff0040;
+   color: #fff;
+  font-size: 1em;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: .4 !important;
+    letter-spacing: 5px;
+    border-radius: 0;
+}
+
+
+  #socialmedia {
+    text-align: right;
+    color: #FFF;
+  }
+
+.fa fa-coffee {
+  color:#ff0040;
+}
+
+  .fa, footer {
+    color: #fff;
+    margin:right;
+  }
+
+  .list-inline {
+    align-items:right;
+  }
+
+  #conlink {
+    color:#ff0040;
+  }
+
+  a, footer {
+    color:#ffffff;
+  }
+
+
+
+  main {
+    padding-top:10px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+    font-size: 30px;
+    border:none;
+    border-color:#004400;
+    background-color:white;
+    color:black;
+  }
+
+  #contact-main {
+    padding-top:80px;
+    margin-left:80px;
+    margin-right:80px;
+    margin-bottom:0px;
+    font-size: 35px;
+    border:none;
+    border-color:#004400;
+    background-color:white;
+  }
+
+
+h2, #contact {
+  font-size:40px;
+  font-weight:normal;
+}
+
+#phonefoot {
+  color:white;
+}
+
+head, title {}
+
+/* Viewing dimensions */
+
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align:center;
+    margin:25px 0;
+  }
+}
+
+#mobile { display: none; }
+#desktop { display: inline; }
+@media only screen and (max-width: 1024px) {
+  #wrapper { width: 100%;
+           min-width: 0;
+         margin: 0;
+         padding: 0; }
+  header { padding-top: 1px; }
+  nav { float: none;
+        padding-left: 2em;
+        width: auto; }
+  nav a { padding: 0.2em;
+        margin-left: 0.3em;
+      float: left;
+      width: 23%; }
+  main  {
+         margin: 0;
+       font-size: 90%;
+       clear: both;
+     }
+  #hero img { width: 100%; height: auto; }
+  h2, h3, p, dl { padding-left: 2em; padding-right: 2em; }
+  main ul { margin-left: 2em; }
+  .floatleft { margin-left: 2em; margin-bottom: 1em;  }
+  .clear { padding-left: 2em; }
+}
+
+/* Tablet-Portrait & Below */
+@media only all and (max-width: 768px) {
+  h1 { font-size: 2em; padding-top: 0.25em; padding-left: 1.5em; width: 85%; }
+  nav a { padding: 0.5em; width: 45%; float: left; min-width: 6em; margin-left: 0.5em; }
+
+  .floatleft { float: none; display: none; }
+  #hero { display: none; }
+  #mobile { display: inline; }
+  #desktop { display: none; }
+
+  .jumbo-menu {
+    padding: 40px 25px 200px;
+  }
+  main {
+    padding: 0 0 200px;
+  }
+
+  #socialmedia {
+    text-align: right;
+    color: #FFF;
+  }
+}
